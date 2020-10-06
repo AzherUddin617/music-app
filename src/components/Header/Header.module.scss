@@ -1,0 +1,29 @@
+@import '../../global/variables.scss';
+
+.Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem $contentPadding;
+
+  .Logo {
+    .Title {
+      color: $colorPrimary;
+      font-size: 1.6rem;
+      line-height: 0.8;
+      
+      span {
+        font-size: 1.2rem;
+        color: $colorWhite;
+        font-weight: 300;
+      }
+    }
+    .Subtitle {
+      display: inline-block;
+      font-size: 0.75rem;
+      color: $colorWhite;
+      opacity: 0.6;
+    }
+  }
+}

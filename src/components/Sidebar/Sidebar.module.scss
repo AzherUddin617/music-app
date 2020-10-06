@@ -1,0 +1,39 @@
+@import '../../global/variables.scss';
+
+.Sidebar {
+  
+  .Nav {
+
+    .List {
+
+      .Item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+        opacity: 0.8;
+        transition: opacity 0.4s ease;
+        cursor: pointer;
+
+        &:hover, &.Active {
+          opacity: 1;
+
+          .Icon {
+            color: $colorPrimary;
+          }
+          .Text {
+            color: $colorPrimary;
+          }
+        }
+        .Icon {
+          font-size: 1.1rem;
+          transition: color 0.4s ease;
+        }
+        .Text {
+          font-weight: 500;
+          padding-left: 1rem;
+          transition: color 0.4s ease;
+        }
+      }
+    }
+  }
+}
