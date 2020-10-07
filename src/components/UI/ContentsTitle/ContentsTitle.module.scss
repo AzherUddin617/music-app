@@ -1,0 +1,13 @@
+@import '../../../global/variables.scss';
+
+.ContentsTitle {
+  font-size: 1.5rem;
+  color: $colorPrimary;
+  padding: 0.5rem 0;
+
+  span {
+    color: $colorWhite;
+    opacity: 0.8;
+    font-weight: 400;
+  }
+}
